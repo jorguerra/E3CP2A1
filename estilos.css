@@ -1,0 +1,54 @@
+body, p, header,img{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(237, 237, 237);
+}
+
+@media(max-width:480px){
+    body{padding: 80px 1em;}
+}
+@media(min-width:481px) and (max-width:800px){
+    body{padding: 80px 2em;}
+}
+@media(min-width:801px){
+    body{padding: 5em 5em;}
+}
+
+.container{
+    display: table;
+    background: white;
+    text-align: center;
+    padding: 0 1em;
+}
+
+.highlight{
+    color: rgb(255, 55, 25);
+}
+
+header{
+    text-align: center;
+    top: -75px;
+    position: relative;
+    border-bottom: 2px groove rgb(237, 237, 237);
+}
+
+.container > header > img {
+    border: 12px solid rgb(237, 237, 237);
+    border-radius: 50%;
+    max-width: 150px;
+    position: relative;
+    
+}
+
+header  h3 {
+    font-size: 25px
+}
+
+section h3::before{ content: '//   '}
+section h3{ color: rgb(255, 55, 25);}
+section p {margin-bottom:0.7em}
+
+#educacion .ano{font-weight: bolder;}
