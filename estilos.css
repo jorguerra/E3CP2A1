@@ -52,3 +52,18 @@ section h3{ color: rgb(255, 55, 25);}
 section p {margin-bottom:0.7em}
 
 #educacion .ano{font-weight: bolder;}
+#educacion .data{background: rgb(236, 236, 236); padding: 10px 10px 0 10px}
+#educacion .ano, #educacion .data{margin-bottom: 0.6em}
+
+
+#skills p{
+    margin: 2.5px 0
+}
+
+#skills p span{
+    background: rgb(255, 55, 25);
+    color: white;
+    display: table;
+    padding: 3px;
+    font-weight: bolder
+}
